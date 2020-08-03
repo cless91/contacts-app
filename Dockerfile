@@ -1,4 +1,4 @@
-FROM httpd
+FROM php:7.4-apache
 
-COPY . /usr/local/apache2/htdocs
+COPY . /var/www/html/
 
